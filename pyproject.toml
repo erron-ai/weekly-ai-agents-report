@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weekly-ai-agents-report"
+version = "0.1.0"
+description = "Automated report generator that uses agents for weekly market intelligence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/weekly-ai-agents-report"
+Issues = "https://github.com/erron-ai/weekly-ai-agents-report/issues"
+
+[project.scripts]
+weekly-ai-agents-report = "weekly_ai_agents_report.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
