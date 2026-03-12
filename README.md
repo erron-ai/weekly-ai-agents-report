@@ -2,7 +2,7 @@
 
 Automated report generator that uses agents for weekly market intelligence.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
